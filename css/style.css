@@ -1,0 +1,86 @@
+:root {
+   --primary-color: rgb(0, 154, 216);
+}
+
+body {
+   font-family: Roboto, "Open Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.5;
+   background: rgb(30, 32, 43);
+}
+
+.navbar-brand img {
+   width: 60px;
+}
+
+.navbar-brand h1,
+.navbar-brand p {
+   font-size: medium !important;
+}
+
+.col-md-4,
+.col-md-8 {
+   flex-shrink: unset !important;
+}
+
+a.nav-link {
+   color: white;
+   font-weight: 400;
+   border: 2px solid transparent;
+}
+
+a.nav-link:focus {
+   color: white;
+}
+
+.active,
+a.nav-link:hover,
+.navbar-toggler {
+   color: var(--primary-color) !important;
+   border: 2px solid var(--primary-color) !important;
+}
+
+.nav-item {
+   margin: 0px 10px;
+}
+
+#home {
+   background-image: url(../Images/banner.png);
+   background-repeat: no-repeat;
+}
+
+input {
+   background: rgb(30, 32, 43) !important;
+   border-width: 0px !important;
+   color: white !important;
+}
+
+input::placeholder {
+   color: gray !important;
+}
+
+input:focus {
+   box-shadow: none !important;
+}
+
+.today-temp {
+   font-size: 4.5vw;
+   font-weight: bold !important;
+}
+
+#home .col-lg-4 {
+   background-color: #323544;
+   color: #BFC1C8;
+}
+
+#home .tomorrow {
+   background-color: #262936;
+}
+
+#home .weather-text {
+   color: var(--primary-color);
+}
+#home .today_header{
+   background-color: rgba(0, 0, 0, 0.1);;
+}
