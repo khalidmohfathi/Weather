@@ -5,7 +5,7 @@ function showLoc(position) {
 
 
 async function getWeather(city) {
-   let data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=1ac04df5a4d74a26b03200003243001&q=${city}&days=3`);
+   let data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=71710e32a98c46b8bef141649241610&q=${city}&days=3`);
    if (data.ok) {
       data = await data.json();
       displayWeather(data);
